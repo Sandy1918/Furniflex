@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.two .family .comfort .family_content img {
+  visibility: visible;
+}
+/*mobile*/
+body {
+  height: 100vh;
+  width: 100%;
+}
+.padding {
+  padding: 4rem;
+}
+.backcolor {
+  margin: 7px;
+  background-color: #f9ccb0;
+  border-radius: 20px;
+  padding-bottom: 1rem;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+@media screen and (min-width: 300px) {
+  header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .logo img {
+    height: 4rem;
+    width: auto;
+  }
+  header .logo h1 {
+    font-size: 1.7rem;
+  }
+  header .header1 {
+    width: 60%;
+    background-color: white;
+    border: 2px solid black;
+    margin: 0.8rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  header .header1 img {
+    height: 1.5rem;
+  }
+  header .header1 input {
+    padding: 0.3rem;
+    width: 80%;
+    border: none;
+    outline: none;
+  }
+  header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  header ul li {
+    font-weight: bold;
+    font-size: medium;
+  }
+  header ul li:hover {
+    color: #ff914c;
+  }
+  .padding {
+    padding: 2rem;
+  }
+  .one .pic .images .backImage {
+    background-color: #ff914c;
+    height: 12rem;
+    width: auto;
+    margin: 1rem auto;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+  }
+  .one .pic .images .backImage img {
+    height: 11rem;
+    width: auto;
+  }
+  .one .pic .main_image img {
+    height: 20rem;
+    width: auto;
+  }
+  .one .content {
+    height: 75vh;
+    overflow: scroll;
+    margin: 0 0.5rem;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.5rem;
+  }
+  .one .content h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .one .content h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .one .content h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .one .content .color {
+    margin-bottom: 1rem;
+  }
+  .one .content p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  .one .content .perks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .one .content .perks .perk {
+    display: flex;
+    line-height: 3rem;
+  }
+  .one .content .perks .perk img {
+    height: 2rem;
+    margin-right: 1rem;
+  }
+  .one .content .about ul .l {
+    margin: 1rem;
+    font-size: 12px;
+  }
+  .one .content .color ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .one .content .color ul li {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+  }
+  .one .content .details p {
+    font-size: 14px;
+  }
+  .one .content .color ul .a {
+    background-color: aqua;
+  }
+  .one .content .color ul .b {
+    background-color: darkorchid;
+  }
+  .one .content .color ul .c {
+    background-color: cadetblue;
+  }
+  .one .content .color ul .d {
+    background-color: chartreuse;
+  }
+  .one .content .color ul .e {
+    background-color: crimson;
+  }
+  .one .content .color ul .f {
+    background-color: forestgreen;
+  }
+  .two h1 {
+    text-align: center;
+  }
+  .two .two_a,
+  .two_b {
+    margin: 1rem;
+  }
+  .two .two_a table {
+    border: 2px solid #000000;
+  }
+  .two .two_a table,
+  th,
+  td {
+    border: 2px solid #000000;
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    border-collapse: collapse;
+  }
+  .two .two_b table,
+  th,
+  td {
+    border: 2px solid #000000;
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    border-collapse: collapse;
+  }
+  .two div {
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 15px;
+  }
+  .three h1 {
+    text-align: center;
+  }
+  .three h1 span {
+    color: #ff914c;
+  }
+  .three .three_main .three_cards {
+    height: auto;
+    width: 15rem;
+    background-color: white;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  .three .three_main .three_cards .three_card {
+    height: 13rem;
+    width: 13rem;
+    background-color: #ff914c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  .three .three_main .three_cards .three_card img {
+    height: 11.8rem;
+    width: auto;
+    border-radius: 15px;
+  }
+  .three .three_main .three_cards p {
+    text-align: center;
+  }
+  .three .three_main .three_cards .btn {
+    padding: 0.5rem;
+    width: 80%;
+    background-color: #ff914c;
+    color: white;
+    border-radius: 15px;
+    margin: auto 1rem;
+    border: none;
+  }
+
+  .four {
+    padding: 0rem;
+  }
+  .four table {
+    display: none;
+  }
+  .five h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .five .star {
+    color: white;
+    font-weight: bold;
+  }
+  .five .total {
+    text-align: center;
+  }
+  .five .ranges .range .ratings {
+    height: 1.5rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .five .ranges .range .ratings .rating5 {
+    height: 1.5rem;
+    width: 80%;
+    background-color: #ff914c;
+    border-radius: 10px;
+  }
+  .five .ranges .range .ratings .rating4 {
+    height: 1.5rem;
+    width: 50%;
+    background-color: #ff914c;
+    border-radius: 10px;
+  }
+  .five .ranges .range .ratings .rating3 {
+    height: 1.5rem;
+    width: 90%;
+    background-color: #ff914c;
+    border-radius: 10px;
+  }
+  .five .ranges .range .ratings .rating2 {
+    height: 1.5rem;
+    width: 30%;
+    background-color: #ff914c;
+    border-radius: 10px;
+  }
+  .five .ranges .range .ratings .rating1 {
+    height: 1.5rem;
+    width: 10%;
+    background-color: #ff914c;
+    border-radius: 10px;
+  }
+  .five .right {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+  }
+  .five .right .review {
+    background-color: #ff914c;
+    margin: 1rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    width: 15rem;
+    height: 6rem;
+  }
+
+  .five .right .review .sixcontent p {
+    font-size: 10px;
+  }
+  .five .right .review img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+  }
+  .five .right .review .sixcontent h3 {
+    color: white;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 700px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  header .header1 input {
+    padding: 0.3rem;
+    width: 78%;
+    border: none;
+  }
+  header .header1 {
+    width: 30%;
+  }
+  header ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .one .pic {
+    display: flex;
+  }
+  .one .pic .images .backImage {
+    height: 7rem;
+    width: 7rem;
+  }
+  .one .pic .images .backImage img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .one .pic .main_image img {
+    height: auto;
+    width: 30rem;
+  }
+  .one .content h1 {
+    font-size: 1.8rem;
+  }
+  .two div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .two table {
+    width: 100%;
+  }
+  .two div .two_a table th,
+  td {
+    width: 20%;
+  }
+
+  .three .three_main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .four {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .four table {
+    display: block;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .five .left .ranges .range {
+    display: flex;
+  }
+  .five .left .ranges .range p {
+    width: 40%;
+    line-height: 2rem;
+  }
+  .four table tbody td {
+    background-color: white;
+  }
+  .five .complete .right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .five .complete .right .review {
+    width: 13rem;
+    height: 5rem;
+    margin: 1rem auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .one {
+    display: flex;
+  }
+  .two div {
+    width: 100%;
+  }
+  .two div .two_a table tbody {
+    height: 25rem;
+  }
+  .two div .two_b table tbody {
+    height: 12rem;
+  }
+  .three .three_main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .four table {
+    width: 100%;
+    height: auto;
+  }
+  .four table tbody td {
+    padding: 1.5rem;
+  }
+  .four table tbody td {
+    font-size: 1rem;
+  }
+  .five .complete {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .five .left .ranges .range {
+    flex-direction: column;
+  }
+  .five .left .ranges .range p {
+    width: 100%;
+    line-height: 2rem;
+  }
+  .five .complete .right .review {
+    width: 15rem;
+    height: 7rem;
+    margin: 1rem auto;
+  }
+  .five .complete .right .review p {
+    font-size: 10px;
+  }
+  .five .complete .right .review img {
+    height: 4rem;
+    width: 4rem;
+  }
+  .five .complete .right {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .one .pic .images .backImage {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+  .one .pic .images .backImage img {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+  .one .pic .main_image img {
+    height: 35rem;
+    width: auto;
+  }
+  .four table tbody td {
+    padding: 2.5rem;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .one .pic .images .backImage {
+    height: 10rem;
+    width: 10rem;
+  }
+  .one .pic .images .backImage img {
+    height: 8rem;
+    width: 8rem;
+  }
+  .one .pic .main_image img {
+    height: 45rem;
+    width: auto;
+  }
+  .one .content {
+    height: 90vh;
+  }
+  .four table tbody td {
+    padding: 2.8rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .four table tbody td {
+    padding: 3.5rem;
+  }
+}
